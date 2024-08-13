@@ -58,8 +58,8 @@ h2 {
 .botcard {
   flex: 1;
   max-width: 400px;
-  padding: 20px;
-  background-color: #7abdd8;
+  padding: 40px;
+  background-color: #49819748;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
@@ -74,7 +74,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
   margin-bottom: 15px;
   border: 1px solid #740086;
   border-radius: 10px;
@@ -111,6 +111,13 @@ button{
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
+}
+button:hover{
+  background-color: pink;
+}
+
+.release-btn:hover{
+  background-color: red;
 }
 @media screen and (max-width: 600px) {
   .container {

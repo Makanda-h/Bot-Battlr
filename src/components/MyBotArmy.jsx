@@ -9,7 +9,7 @@ const MyBotArmy = ({ myBotArmy,handleReleaseBot, handleDischargeBot }) => {
                 <img src={bot.avatar_url} alt={bot.name} />
                 <h3>{bot.name}</h3>
                 <button onClick={() => handleDischargeBot(bot.id)}>Discharge</button>
-                <button onClick={() => handleReleaseBot(bot)}>Release</button>
+                <button className="release-btn" onClick={() => handleReleaseBot(bot)}>Terminate Army</button>
             </div>
         ))}
     </div>
