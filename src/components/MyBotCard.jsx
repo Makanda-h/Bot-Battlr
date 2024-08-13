@@ -11,7 +11,7 @@ function MyBotCard({bot, handleAddBot}) {
           <p>Damage: {bot.damage}</p>
           <p>Health: {bot.health}</p>
           <h4>Catchphrase {bot.catchphrase}</h4>
-          <button onClick = {() => handleAddBot(bot)}>Recruit</button>
+          <button onClick={()=> handleAddBot(bot)}>Add to Army</button>
         </div>
       </div>
     );
